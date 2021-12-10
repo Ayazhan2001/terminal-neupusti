@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ne upusti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="shortcut icon" href="logo.png">
+</head>
+<body>
+	<div class="main">
+		<div class="main__header">
+			<section class="main-header__menu">
+		        <nav>
+		            <a href="#" class="logo"><img src="images/asset.png" alt="logo" width="270" height="50"></a>
+		            <ul class="menu">
+		                <li><a href="blog.html">Блог</a></li>
+		                <li><a href="#">Гранты и стипендии</a></li>
+		                <li><a href="#">Стажировки</a></li>
+		                <li><a href="#">Возможности</a></li>
+		                <li><a href="login.html">Вход/Регистрация</a></li>
+		            </ul>
+		        </nav>
+            </section>
+        </div> 
+        <div class="main__body">
+        	<div class="main-body-content">
+            	<div class="main__text">
+			        <h1 class="auto-input">Не упусти <span class="animate"></span></h1>
+			        <p>$500,000,000 <br> Полученных грантов нашими пользователями </p>
+			    </div>
+			    <div class="main__dropdown">
+			    	<div class="main-dropdown__input">
+				    	<div class="main-dropdown-left">
+				    		<!-- <form action="/action_page.php"> -->
+							<select name="program" id="program">
+								<option value="choose">Выбрать</option>
+								<option value="grant">Гранты и стипендии</option>
+								<option value="intern">Стажировки</option>
+								<option value="competition">Конкурсы</option>
+								<option value="volonteer">Волонтерство</option>
+								<option value="event">События</option>
+							</select>
+						</div>
+				    	<div class="main-dropdown-right">
+				    		<!-- <form action="/action_page.php"> -->
+							<select name="state" id="state">
+								<option value="choose">Выбрать страну</option>
+						        <option value="australia">Австралия</option>
+							    <option value="austria">Австрия</option>
+							    <option value="uk">Великобритания</option>
+							    <option value="gruzia">Грузия</option>
+							    <option value="italy">Италия</option>
+						    </select>
+						</div>
+					</div>
+					<div class="main-dropdown__button">
+						<form action="blog.html" class="btnm">
+							<button >Не упустить!</button>
+						</form> <!-- <input type="submit" value="Не упустить!"> -->
+					</div>
+			    </div>
+			    <i>
+					<input type="radio" name="s" style="background-image: url('images/kais.png');" title="Kaist">
+					<input type="radio" name="s" style="background-image: url('images/techno.png');" title="Techno">
+					<input type="radio" name="s" style="background-image: url('images/mext.png');" title="mext ">
+					<input type="radio" name="s" style="background-image: url('images/euro.png');" title="euro">
+					<input type="radio" name="s" style="background-image: url('images/techno.png');" title="Techno">
+				</i>
+			    <div class="main__block">
+			    	<img src="images/partner.png" alt="" width="800">
+			    </div>
+
+		    </div>
+		</div>
+	</div>
+    
+  <footer class="main__footer">
+  	<div class="main__footer_top">
+		<div class="footer-left">
+		    <img src="images/asset2.png" alt="" width="250">
+		</div>
+		<div class="footer-right">
+			<table class="footer-table">
+				<tr style="height:40px">
+					<td><a href="#">Блог</a></td>
+					<td><a href="#">Предложить анонс</a></td>
+					<td><a href="#">О нас</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Гранты и стипендии</a></td>
+					<td><a href="#">Реклама</a></td>
+					<td><a href="#">FAQ</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Стажировки</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#">Контакты</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Волонтерство</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">События</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Конкурсы</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="main__footer_bottom">
+		<p>Neupusti(c)2021.Все права защищены.</p>
+		<!-- <div class="footer-bottom-logos">
+        <div class="footer-bottom-logos">
+			<img src="images/facebook.png">
+			<img src="images/telegram.png">
+			<img src="images/vk.jpg">
+			<img src="images/insta.">
+		</div> -->
+	</div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".animate",{
+            strings: [
+            "Гранты",
+            "Стипендии",
+            "Конкурсы", 
+            "Стажировки",
+            "События"
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+
+
+    
+</body>
+</html>

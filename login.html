@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/login.css" />
+	
+    <title>Ne upusti</title>
+  </head>
+  <body>
+	<div class="main">
+		<div class="main__header">
+			<section class="main-header__menu">
+		        <nav>
+		            <a href="index.html" class="logo"><img src="images/asset.png" alt="logo" width="270" height="50"></a>
+		            <ul class="menu">
+		                <li><a href="blog.html">Блог</a></li>
+		                <li><a href="#">Гранты и стипендии</a></li>
+		                <li><a href="#">Стажировки</a></li>
+		                <li><a href="#">Возможности</a></li>
+		                <li><a href="login.html">Вход/Регистрация</a></li>
+		            </ul>
+		        </nav>
+            </section>
+        </div> 
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Вход</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Введите имя пользователя" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Введите Пароль" />
+            </div>
+            <input type="submit" value="Вход" class="btn solid" />
+            <p class="social-text">Или войти через</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/account/about/" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="https://account.mail.ru/signup?_1ld=3057529_1_102037234526&_1lp=1&from=adwords&utm_source=google&utm_medium=cpc&utm_campaign=PMR_CIS(KZ)_WEB_gSRCH_GNRL_Action_PM&utm_content=gid_102037234526&utm_term=%2Bзарегистрировать%20%2Bемайл&reqid=%7BLOGID%7D&mt_link_id=vt0f49&mt_sub1=%7Bad_id%7D&mt_sub2=%7Bcampaign_id%7D&mt_sub3=%7Bcreative_id%7D&mt_sub4=%7Bsource%7D&gclid=CjwKCAiA78aNBhAlEiwA7B76p_ib1XX2bELBR2omPImK64Zmj1v3PrTYb-zIuNw0HIZ183iuM-UDbhoCzNMQAvD_BwE" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Регистрация</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Введите имя пользователя" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Введите ваш электронный адрес" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Придумайте пароль" />
+            </div>
+            <input type="submit" class="btn" value="Зарегистрироваться" />
+            <p class="social-text">Или войти через</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Нет аккаунта ?</h3>
+            <p>
+              Тогда вам сюда!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Зарегистрироваться
+            </button>
+            <form action="admin.html"><button class="btn-admin">АДМИН</button></form>  
+          </div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Уже есть аккаунт?</h3>
+            <p>
+				Уже есть аккаунт? Тогда вам сюда!
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+             Выполнить вход
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+ <footer class="main__footer">
+	<div class="main__footer_top">
+		<div class="footer-left">
+		    <img src="images/asset2.png" alt="" width="250">
+		</div>
+		<div class="footer-right">
+			<table class="footer-table">
+				<tr style="height:40px">
+					<td><a href="#">Блог</a></td>
+					<td><a href="#">Предложить анонс</a></td>
+					<td><a href="#">О нас</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Гранты и стипендии</a></td>
+					<td><a href="#">Реклама</a></td>
+					<td><a href="#">FAQ</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Стажировки</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#">Контакты</a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">Волонтерство</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+				<tr style="height:50px">
+					<td><a href="#">События</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Конкурсы</a></td>
+					<td><a href="#"></a></td>
+					<td><a href="#"></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+		<div class="main__footer_bottom">
+			<p>Neupusti(c)2021.Все права защищены.</p>
+			<!-- <div class="footer-bottom-logos">
+				<img src="images/facebook.">
+				<img src="images/telegram.">
+				<img src="images/vk.">
+				<img src="images/insta.">
+			</div>
+	    </div> -->
+</footer> 
+     </script>    
+<script type="app.js"></script>
+</body>
+</html>
